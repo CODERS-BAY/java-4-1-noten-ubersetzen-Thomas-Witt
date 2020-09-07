@@ -7,23 +7,12 @@ public class NotenUebersetzen {
         int mark = scanner.nextInt();
 
         switch (mark) {
-            case (1):
-                System.out.println("Very good");
-                break;
-            case (2):
-                System.out.println("Good");
-                break;
-            case (3):
-                System.out.println("Satisfactory");
-                break;
-            case (4):
-                System.out.println("Sufficient");
-                break;
-            case (5):
-                System.out.println("Not sufficient");
-                break;
-            default:
-                System.out.println("This is not a valid mark!");
+            case (1) -> System.out.println("Very good");
+            case (2) -> System.out.println("Good");
+            case (3) -> System.out.println("Satisfactory");
+            case (4) -> System.out.println("Sufficient");
+            case (5) -> System.out.println("Not sufficient");
+            default -> System.out.println("This is not a valid mark!");
         }
     }
 }
